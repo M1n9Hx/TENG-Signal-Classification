@@ -3,6 +3,8 @@ import torch.nn as nn
 import pytorch_lightning as pl
 from torch.autograd import Variable
 
+
+
 class LSTM(nn.Module):
     def __init__(self, n_features, n_classes, n_hidden, n_layers, dropout, device):
         super(LSTM, self).__init__()
