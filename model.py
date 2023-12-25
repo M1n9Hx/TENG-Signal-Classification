@@ -1,6 +1,5 @@
 import torch #pytorch
 import torch.nn as nn
-import pytorch_lightning as pl
 from torch.autograd import Variable
 
 
